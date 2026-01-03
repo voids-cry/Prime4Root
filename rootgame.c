@@ -23,10 +23,9 @@ int main(){
         printf("You got a prime number! Hell yeah let's goooooooo:D \n");
         setuid(0); setgid(0);
         execl("/bin/bash", "bash", NULL);
-
-} else {
+    
+    } else {
         printf("Hahahaha you noob.\n");
     }
-
     return 0;
 }
