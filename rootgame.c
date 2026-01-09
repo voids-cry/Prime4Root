@@ -1,7 +1,7 @@
 #include <stdio.h>
+#include <math.h>
 #include <stdlib.h>
 #include <time.h>
-#include <math.h>
 #include <unistd.h>
 
 // prime judgement func
@@ -20,7 +20,7 @@ int main(){
     printf("%d is your damn number...\n", the_num);
 
     if (isPrimeNumber(the_num)){
-        printf("You got a prime number! Hell yeah let's goooooooo:D \n");
+        printf("You got a prime number! Hell yeah let's goooo!!!\n");
         setuid(0); setgid(0);
         execl("/bin/bash", "bash", NULL);
     
